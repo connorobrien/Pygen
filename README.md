@@ -29,7 +29,7 @@ You’ll need to enter you App’s Client ID, Client Secret, and Redirect URI in
 
 Below is an overview of the workflow for this program. There are various ways to customize the way recommended songs are chosen in each iteration, as outlined below.
 
-<strong>Program Workflow<strong>
+<strong>Program Workflow</strong>
 
 - Prompt user for username
 - Authenticate the user’s information (via the Spotify API)
