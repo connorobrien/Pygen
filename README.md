@@ -56,14 +56,24 @@ Below is an overview of the workflow for this program. There are various ways to
   
 <h3> Example </h3>
 
-Below is an example of this program in action [(click here if the GIF isn't loading)](https://media.giphy.com/media/JmNiivSn2wrOFBX2Oz/giphy.gif).
+Below is an example of this program in action [(click here if the GIF isn't loading)](https://media.giphy.com/media/TV1jwAn2EPOqfzL5Pq/giphy.gif).
 
-![Alt Text](https://media.giphy.com/media/JmNiivSn2wrOFBX2Oz/giphy.gif?style=centerme)
+![Alt Text](https://media.giphy.com/media/TV1jwAn2EPOqfzL5Pq/giphy.gif)
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/connorobrien/Pygen/main/WorkflowDiagram.png"width="700">
+</p>
 <h3> Reflections </h3>
 
-One of the core subproblems I encountered was how do I skew the recommendations in the way of my choosing - I.e. how do I make it more similar to a user’s taste or take it further away from a listener’s taste.
+One of the core subproblems I encountered was how to practically skew the song recommendations; i.e., how do I make them more similar or less similar to a user's taste?
 
 The first step was to optimize the functions that lead to the final list of tracks. Doing so took refinement and experimentation to have Pygen create playlists that are similar, but not too similar.
 
 Second, Pygen allows the user to input custom data that allows them to affect the trajectory of Pygen. The user can control how far back Spotify looks into their user history, how many playlist iterations it performs, whether it uses a random track from the previous playlist as the seed or it chooses the audio attribute outlier, and whether or not to add a genre into the seeding process.
+
+I found the most 'successful' recommendations used 10+ iterations with random seeds for each iteration. The outlier method was a fun experiment utilizing the audio attribute data provided by Spotify (such as the 'danceability' or 'acousticness' of a song), but it's path is inherently less random and results in a similar final list of song recommendations. 
+
+The random method has more variablility which produces more unique playlists each time through. In my experience, it may grab one of the more acoustic folk tracks from my listening history as the initial seed, or it may grab a dancier track. Both initial seeds will result in vastly different final recommendations.
+
+
+
