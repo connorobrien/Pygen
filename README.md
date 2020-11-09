@@ -4,11 +4,14 @@ Pygen is a program that analyzes a Spotify user’s listening history and genera
 
 <h3>Motivation </h3>
 
-My motivation for this project stemmed from a dissatisfaction with the song recommendations provided to me by Spotify. Every Monday morning, Spotify users are given a personalized playlist of 30 recommended songs in a playlist called Discover Weekly. While I have found excellent songs in this playlist, I've often found that the songs I'm recommended are more or less 'knockoff' versions of the artists I frequent. When I do discover a new artist I'm enamoured with, its rarely an artist in the same styles that I listen to. Rather, its one who's music shares some stylistic similarities with my favorite artists, but offers some unique and distinct characteristics. In other words, my favorite artists recommendations are one's that are similar to the artists I enjoy, but not too similar. This program impliments this idea, creating customizable song recommendations that 'step further' away from a user's Spotify listening history. 
+My motivation for this project stemmed from a dissatisfaction with the song recommendations provided to me by Spotify. Every Monday morning, Spotify users are given a personalized playlist of 30 recommended songs in a playlist called Discover Weekly. While I have found excellent songs in this playlist, I've often found that the songs I'm recommended are more or less 'knockoff' versions of the artists I frequent. 
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/connorobrien/Pygen/main/DiscoverWeeklyExample.png"width="700">
 </p>
+
+When I do discover a new artist I'm enamoured with, its rarely an artist in the same styles that I listen to. Rather, its one who's music shares some stylistic similarities with my favorite artists, but offers some unique and distinct characteristics. In other words, my favorite artists recommendations are one's that are similar to the artists I enjoy, but not too similar. This program impliments this idea, creating customizable song recommendations that 'step further' away from a user's Spotify listening history. 
+
 
 The general approach for this program is to create chained recommendations from an user's listening history. It start's with their most listened to songs on Spotify, recommends ten songs they might enjoy, chooses one of the latest ten songs to recommend another ten songs from, and repeats this process for a number of iterations. My proposal is that more iterations will provide recommendations that are more 'dissimilar' from a user's listening history, but by using their listening history as a starting point these recommendations might offer new and exiciting music recommendations.
 
@@ -19,7 +22,7 @@ The general approach for this program is to create chained recommendations from 
 
 <h3> What You'll Need To Run This Program </h3>
 
-In order to run Pygen.py, you’ll need Spotipy, a lightweight Python Library for the Spotify API. You can download it at https://github.com/plamere/spotipy, or install it with the command line prompt ‘pip install spotipy’.
+In order to run Pygen.py, you’ll need Spotipy, a lightweight Python Library for the Spotify API. [You can download it here](https://github.com/plamere/spotipy), or install it with the command line prompt ‘pip install spotipy’.
 
 Further, you’ll need three supplementary Python files provided in this repository in the same folder as pygen.py, which are outlier.py, config.py, and playlistgen.py.
 
@@ -27,7 +30,11 @@ Further, you’ll need three supplementary Python files provided in this reposit
 
 In order to run the this program, you’ll need to register it as an app in a Spotify Developer account. [You can create an account here](https://developer.spotify.com/dashboard/).
 
-Once you’ve registered it as an app, Spotify will provide you with a unique “Client ID”, “Client Secret”, and 'Redirect URI' for this app. These are necessary to authorize your application to fetch data from Spotify. More details about Spotify’s authorization process can be found here https://developer.spotify.com/documentation/general/guides/authorization-guide/.
+Once you’ve registered it as an app, Spotify will provide you with a unique “Client ID”, “Client Secret”, and 'Redirect URI' for this app. These are necessary to authorize your application to fetch data from Spotify. [More details about Spotify’s authorization process can be found here](https://developer.spotify.com/documentation/general/guides/authorization-guide/).
+
+<p align="center">
+<img src="https://developer.spotify.com/assets/WebAPI_intro.png"width="500">
+</p>
 
 You’ll need to enter you App’s Client ID, Client Secret, and Redirect URI in Lines 13-15 of ‘config.py’. Lastly, when running pygen.py you'll need to enter in your Spotify username. Currently this program only supports the Spotify username associated with your Spotify for Developers account. The first time you enter your username you'll need to paste the Redirect URI that is created. After that, you'll be set to run the program.
 
