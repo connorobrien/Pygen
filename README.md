@@ -67,6 +67,8 @@ The playlist from this example (pictured below) [can be found here.](https://ope
 <img src="https://raw.githubusercontent.com/connorobrien/Pygen/main/PlaylistExample.png"width="700">
 </p>
 
+How did the program do? Four of the ten artists I had never heard of, and nine out of ten songs were brand new to me. The only song I was familiar with, Lazy Eye by the Silversun Pickups, I hadn't listened to since high school (before I used Spotify), so overall I'd say the program did a great job. It took an unexpected path into mid 2000's alternative rock that I was pleasantly suprised with.
+
 <h3> Reflections </h3>
 
 One of the core problems I encountered in this project was how to practically skew the song recommendations; i.e., how do I make them more or less similar to a user's taste?
