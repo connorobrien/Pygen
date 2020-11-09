@@ -44,19 +44,21 @@ Below is an overview of the workflow for this program. There are various ways to
 
 <strong>Program Workflow</strong>
 
-- Prompt user for username
+- Prompt for Spotify username
 - Authenticate the user’s information (via the Spotify API)
 - Prompt the user for info about how Pygen will operate (time period, iterations, random/outlier search, and genre seeds)
 - Analyze their top 30 tracks over a specified time period	 
-- Given the user input, either grab a random track or use a custom outlier function to return the track who’s audio attributes are least like the average attributes in that group.
-- Use Spotify’s recommendation algorithm to search for 10 songs that are similar to the random/outlier track from chosen above. This search function also searches for tracks with audio characteristics similar to the average values of the previous list, scaled by 20-40% to push Spotify to move further away from the original seed.
+- Given the user input, select either a random track from the 30 above or use a custom outlier function to return the track who’s audio attributes are least like the average attributes in that group.
+- Use Spotify’s recommendation algorithm to search for 10 songs that are similar to the random/outlier track from chosen above. This search function also searches for tracks with audio characteristics similar to the average values of the previous list, scaled by 20-40% to push Spotify to move further away from the current seed track.
 - Re-perform the previous two steps given the inputted iterations. 
 - Print out the results
-- Offer to put those tracks into a playlist in that user’s Spotify library.
+- Offer to create a playlist with the final ten songs in the user's Spotify library
   
 <h3> Example </h3>
 
-Coming soon...
+Below is an example of this program in action [(click here if the GIF isn't loading)](https://media.giphy.com/media/JmNiivSn2wrOFBX2Oz/giphy.gif).
+
+![Alt Text](https://media.giphy.com/media/JmNiivSn2wrOFBX2Oz/giphy.gif?style=centerme)
 
 <h3> Reflections </h3>
 
