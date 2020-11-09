@@ -57,12 +57,17 @@ Below is an overview of the workflow for this program. There are various ways to
 <h3> Example </h3>
 
 Below is an example of this program in action [(click here if the GIF isn't loading)](https://media.giphy.com/media/TV1jwAn2EPOqfzL5Pq/giphy.gif).
+ 
+<p align="center">
+<img src="https://media.giphy.com/media/TV1jwAn2EPOqfzL5Pq/giphy.gif">
+</p>
 
-![Alt Text](https://media.giphy.com/media/TV1jwAn2EPOqfzL5Pq/giphy.gif)
+The playlist from this example (pictured below) [can be found here](https://open.spotify.com/playlist/1crgYKiOXQ2DAliZBnrsW2?si=wdM5shPHRCKBery5wQYjPQ).
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/connorobrien/Pygen/main/WorkflowDiagram.png"width="700">
+<img src="https://raw.githubusercontent.com/connorobrien/Pygen/main/PlaylistExample.png"width="600">
 </p>
+
 <h3> Reflections </h3>
 
 One of the core subproblems I encountered was how to practically skew the song recommendations; i.e., how do I make them more similar or less similar to a user's taste?
