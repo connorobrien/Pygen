@@ -6,9 +6,15 @@ Pygen is a program that analyzes a Spotify user’s listening history and genera
 
 My motivation for this project stemmed from a dissatisfaction with the song recommendations provided to me by Spotify. Every Monday morning, Spotify users are given a personalized playlist of 30 recommended songs in a playlist called Discover Weekly. While I have found excellent songs in this playlist, I've often found that the songs I'm recommended are more or less 'knockoff' versions of the artists I frequent. When I do discover a new artist I'm enamoured with, its rarely an artist in the same styles that I listen to. Rather, its one who's music shares some stylistic similarities with my favorite artists, but offers some unique and distinct characteristics. In other words, my favorite artists recommendations are one's that are similar to the artists I enjoy, but not too similar. This program impliments this idea, creating customizable song recommendations that 'step further' away from a user's Spotify listening history. 
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/connorobrien/Pygen/main/DiscoverWeeklyExample.png"width="700">
+</p>
+
 The general approach for this program is to create chained recommendations from an user's listening history. It start's with their most listened to songs on Spotify, recommends ten songs they might enjoy, chooses one of the latest ten songs to recommend another ten songs from, and repeats this process for a number of iterations. My proposal is that more iterations will provide recommendations that are more 'dissimilar' from a user's listening history, but by using their listening history as a starting point these recommendations might offer new and exiciting music recommendations.
 
-<image>
+<p align="center">
+<img src="https://raw.githubusercontent.com/connorobrien/Pygen/main/WorkflowDiagram.png"width="700">
+</p>
 
 
 <h3> What You'll Need To Run This Program </h3>
