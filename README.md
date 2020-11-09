@@ -27,7 +27,7 @@ In order to run pygen.py, you’ll need Spotipy, a lightweight Python library fo
 
 <h3> Authentication </h3>
 
-In order to run this program, you’ll must register it as an app in a Spotify for Developers account. [You can create an account here](https://developer.spotify.com/dashboard/).
+In order to run this program, you must register it as an app in a Spotify for Developers account. [You can create an account here](https://developer.spotify.com/dashboard/).
 
 Once you’ve registered it as an app, Spotify will provide you with a unique “Client ID”, “Client Secret”, and 'Redirect URI' for the app. These are necessary to authorize your application to fetch data from Spotify. [More details about Spotify’s authorization process can be found here.](https://developer.spotify.com/documentation/general/guides/authorization-guide/)
 
@@ -69,15 +69,15 @@ The playlist from this example (pictured below) [can be found here.](https://ope
 
 <h3> Reflections </h3>
 
-One of the core subproblems I encountered in this project was how to practically skew the song recommendations; i.e., how do I make them more similar or less similar to a user's taste?
+One of the core problems I encountered in this project was how to practically skew the song recommendations; i.e., how do I make them more or less similar to a user's taste?
 
 The first step was to optimize the functions that lead to the final list of recommended tracks. Doing so took refinement and experimentation to have Pygen create recommendations that are similar, but not too similar.
 
-Second, Pygen allows the user to input custom data that allows them to affect the trajectory of Pygen. The user can control how far back Spotify looks into their listening history, how many playlist iterations it performs, whether it uses a random track from the previous playlist as the seed or it chooses the audio attribute outlier, and whether to add a genre into the seeding process.
+Second, Pygen allows the user to input custom settings that affect the trajectory of Pygen. The user can control how far back Spotify looks into their listening history, how many playlist iterations it performs, whether it uses a random track from the previous playlist as the seed or it chooses the audio attribute outlier, and whether to add a genre into the seeding process.
 
 I found the most 'successful' recommendations used 10+ iterations with random seeds for each iteration. The outlier method was a fun experiment using the audio attribute data provided by Spotify (such as the 'danceability' or 'acousticness' of a song), but its path is inherently less random and results in a similar final list of song recommendations. 
 
-The random seed method has more variability, which produces more unique playlists each time through. In my experience, it may grab one of the more acoustic folk tracks from my listening history as the initial seed, or it may grab a dancier track. Both initial seeds will result in vastly different final recommendations.
+The random seed method has more variability, which produces more unique playlists each time through. In my experience, it may grab one of the  acoustic folk tracks from my listening history as the initial seed, or it may grab a dancier electronic track. Both initial seeds will result in vastly different final recommendations.
 
 <h3> Comments </h3>
 
