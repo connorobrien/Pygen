@@ -61,13 +61,12 @@ Below is an example of this program in action [(click here if the GIF isn't load
 <img src="https://media.giphy.com/media/TV1jwAn2EPOqfzL5Pq/giphy.gif">
 </p>
 
-The playlist from this example (pictured below) [can be found here.](https://open.spotify.com/playlist/1crgYKiOXQ2DAliZBnrsW2?si=wdM5shPHRCKBery5wQYjPQ).
+How did the program do? Four of the ten artists I had never heard of, and nine out of ten songs were brand new to me. The only song I was familiar with, Lazy Eye by the Silversun Pickups, I hadn't listened to since high school (before I used Spotify), so overall I'd say the program did a great job. It took an unexpected path into mid 2000's alternative rock that I was pleasantly suprised with. The playlist from this example (pictured below) [can be found here.](https://open.spotify.com/playlist/1crgYKiOXQ2DAliZBnrsW2?si=wdM5shPHRCKBery5wQYjPQ).
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/connorobrien/Pygen/main/PlaylistExample.png"width="700">
 </p>
 
-How did the program do? Four of the ten artists I had never heard of, and nine out of ten songs were brand new to me. The only song I was familiar with, Lazy Eye by the Silversun Pickups, I hadn't listened to since high school (before I used Spotify), so overall I'd say the program did a great job. It took an unexpected path into mid 2000's alternative rock that I was pleasantly suprised with.
 
 <h3> Reflections </h3>
 
