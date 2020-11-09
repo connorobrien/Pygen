@@ -64,7 +64,7 @@ Below is an example of this program in action [(click here if the GIF isn't load
 The playlist from this example (pictured below) [can be found here.](https://open.spotify.com/playlist/1crgYKiOXQ2DAliZBnrsW2?si=wdM5shPHRCKBery5wQYjPQ).
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/connorobrien/Pygen/main/PlaylistExample.png"width="600">
+<img src="https://raw.githubusercontent.com/connorobrien/Pygen/main/PlaylistExample.png"width="700">
 </p>
 
 <h3> Reflections </h3>
